@@ -1,7 +1,7 @@
 App.PostRoute = Ember.Route.extend({
   // model: function(params) {
-  //   return this.store.find('post');
-  // }
+  //   return {};
+  // },
   actions: {
     showComments: function() {
       this.transitionTo('comments')
