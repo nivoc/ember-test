@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   respond_to :json
 
   def index
-    respond_with Comment.where(post_id:git remote add origin https://github.com/nivoc/ember-test.git params[:post_id])
+    respond_with Comment.where(post_id: params[:post_id])
   end
 
   def show
